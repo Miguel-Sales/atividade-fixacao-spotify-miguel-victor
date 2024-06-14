@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html id="html-entrar" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body id="body-entrar">
+    <main class="main">
+        <div class="pagina-login">
+            <img id="logo-spotify" src="img/logo-spotify.png" alt="">
+            <div class="cabecalho-entrar">
+                <h1>Entrar no Spotify</h1>
+            </div>
+
+            <div class="opcoes-continuar">
+                <div class="google">
+                    <img class="imagens-entrar" src="img/google.webp" alt="google">
+                    <h3>Continuar com o Google</h3>
+                </div>
+
+                <div class="facebook">
+                    <img class="imagens-entrar" src="img/facebook.png" alt="facebook">
+                    <h3>Continuar com o Facebook</h3>
+                </div>
+
+                <div class="apple">
+                    <img class="imagens-entrar" src="img/apple.png" alt="apple">
+                    <h3>Continuar com a Apple</h3>
+                </div>
+
+                <div class="celular">
+                    <h3>Continuar com um número de<br>telefone</h3>
+                </div>
+            </div>
+
+            <div class="parte-baixo-login">
+                <div class="email-div">
+                    <label for="email" class="email-label">E-mail ou nome de usuário</label>
+                    <input type="email" class="email-input" placeholder="E-mail ou nome de usuário" required>
+                </div>
+
+                <div class="senha-div">
+                    <label for="password" class="senha-label">Senha</label>
+                    <div class="senha-div2">
+                        <input type="password" class="senha-input" placeholder="Senha">
+                        <i class="ri-eye-off-line pass-toggle"></i>
+                    </div>
+                </div>
+                <div id="text-lembrar">
+                    <input type="checkbox">
+                    <label for="remember-me" id="remember-me">Lembrar de mim</label>
+                </div>
+                
+                <div class="botao-entrar">
+                    <button type="submit" class="botao-login"><a id="entrar-a" href="homepage.html">Entrar</a></button>
+                </div>
+
+                <div class="esqueceu-senha">
+                    <a class="a" href="#">Esqueceu sua senha?</a>
+                </div>
+            </div>
+
+            <div class="cadastrar">
+                <span class="cadastrar-texto">Não tem uma conta? <a class="a" href="#">Inscrever-se no Spotify</a></span>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
